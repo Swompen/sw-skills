@@ -1,8 +1,12 @@
-## sw-skills
+
+# [ SW-SKILLS ]
 - A database held skill/XP system for qb-core.
 - Built in UI
 - Credits to Kings#4220 his resource is based on the custom line branch of "B1-skillz" - for the original resource (with GTA V inherent modifications) please see: https://github.com/Burn-One-Studios/B1-skillz
 - Credits to Mz-skills since this is a fork of hes skill system.
+
+## Join my Discord Server
+[![Discord](https://img.shields.io/discord/1034349935249858662?style=for-the-badge&label=Discord%20Server)](https://discord.gg/ckYfQWDKe7)
 
 ### [ What is this? ]
 - A skillsystem based on GTA's existing skills.
@@ -64,5 +68,6 @@ end)
 ### [ Previews ]
 
 <p align="center">
+![FiveM_b2699_GTAProcess_TOdDawdusf](https://user-images.githubusercontent.com/16113909/203280327-7d450b95-f0ef-4f19-a179-33c84595eb11.png)
 
 </p>
