@@ -68,6 +68,6 @@ end)
 ### [ Previews ]
 
 <p align="center">
-![FiveM_b2699_GTAProcess_TOdDawdusf](https://user-images.githubusercontent.com/16113909/203280460-554ec955-fc92-476c-b393-06727dd22615.png)
+!(https://user-images.githubusercontent.com/16113909/203280460-554ec955-fc92-476c-b393-06727dd22615.png)
 
 </p>
