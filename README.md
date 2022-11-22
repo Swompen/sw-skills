@@ -68,6 +68,7 @@ end)
 ### [ Previews ]
 
 <p align="center">
-!(https://user-images.githubusercontent.com/16113909/203280460-554ec955-fc92-476c-b393-06727dd22615.png)
+
+![Picture](https://user-images.githubusercontent.com/16113909/203280759-8db0798f-8ce3-439e-8582-6f428a040089.png)
 
 </p>
