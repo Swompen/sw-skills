@@ -1,0 +1,85 @@
+
+body {
+    display: none;
+}
+
+.databank-bg {
+    background-color: rgb(16, 16, 19);
+    position: absolute;
+    margin: 0 auto;
+    left:0;
+    right: 0;
+    top: 9vh;
+    width:75vw;
+    height:75vh;
+    overflow-y: scroll;
+}
+
+.skills-logo {
+    position: absolute;
+    height: 40%;
+    max-width: 100%;
+    bottom: 41vh;
+    right: 0vh;
+}
+
+.text-center {
+    height: 30vh;
+}
+
+.container {
+    padding-top: 2vh;
+    color: white;
+
+}
+
+.progress-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin: 0 0 20px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.progress {
+    height: 20px;
+    background: #333;
+    border-radius: 0;
+    box-shadow: none;
+    margin-bottom: 30px;
+    overflow: visible
+}
+
+.progress .progress-bar {
+    position: relative;
+    -webkit-animation: animate-positive 2s;
+    animation: animate-positive 2s
+}
+
+.progress .progress-value {
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    top: -30px;
+    right: -25px
+}
+
+.progress .progress-bar:after {
+    content: "";
+    display: inline-block;
+    width: 10px;
+    background: #fff;
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -5px;
+    z-index: 1;
+    transform: rotate(35deg)
+}
+
+h1 {
+    text-align: center
+}
