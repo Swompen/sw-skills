@@ -12,6 +12,7 @@
 - A skillsystem based on GTA's existing skills.
 - Very easy to configure, just check the config.
 - You can for example add this to your gym script to get stronger.
+- Built in UI with /skills
 
 ### [ Installation ]
 - Download the resource and drop it to your resource folder.
@@ -39,9 +40,9 @@ B. The export to check to see if a skill is equal or greater than a particular v
 
 You can use this to lock content behind a particular level, for example:
 ```lua
-exports["mz-skills"]:CheckSkill("Searching", 100, function(hasskill)
+exports["sw-skills"]:CheckSkill("Searching", 100, function(hasskill)
     if hasskill then
-        TriggerEvent('sw-bins:client:Reward')
+        print("Do stuff")
     else
         QBCore.Functions.Notify('You need at least 100XP in Searching to do this.', "error", 3500)
     end
@@ -50,7 +51,7 @@ end)
 
 - The export to obtain a player's current skill to interact with other scripts is as follows:
 ```lua
-    exports["sw-skillz"]:GetCurrentSkill(skill)
+    exports["sw-skills"]:GetCurrentSkill(skill)
 ```
 
 - For radial menu access to "skills" command add this to qb-radialmenu/config.lua - line 296 and following:
