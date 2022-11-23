@@ -11,9 +11,9 @@ Config.Skills = {
         ["Current"] = 0,
         ["RemoveAmount"] = 0,
         ["Stat"] = "BINDIVE_ABILITY",
-        ['icon'] = 'fas fa-trash',
-        ['nameInTablet'] = "Searching",
-        ['pBarColor'] = "#f69833"
+        ['icon'] = 'fas fa-trash',      -- Currently not used
+        ['nameInTablet'] = "Searching", -- This will be the display name in the tablet
+        ['pBarColor'] = "#f69833"  -- Hex color of the progressbar in the tgablet
     },
     ["Scraping"] = {
         ["Current"] = 0,
