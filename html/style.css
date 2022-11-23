@@ -15,6 +15,11 @@ body {
     overflow-y: scroll;
 }
 
+.xptext {
+    color: orange;
+    text-align: right;
+}
+
 .skills-logo {
     position: absolute;
     height: 40%;

@@ -14,7 +14,8 @@ function OpenShopMenu()
 			label      	= v.nameInTablet,
             current     = v.Current,
             color       = v.pBarColor,
-            procent     = currentProcent
+            procent     = currentProcent,
+            xp          = math.floor(v['Current'])
         })
     end
 		SetNuiFocus(true, true)

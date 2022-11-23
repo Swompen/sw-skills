@@ -34,6 +34,7 @@ console.log(JSON.stringify(item))
 
 	if (item.message == "add"){
 		$( ".col-md-12" ).append(' <h3 class="progress-title">'+item.label+'</h3>' +
+					'<div class="xptext"> '+item.xp+'/12800 XP',
 					'<div class="progress">' +
 					'<div class="progress-bar" style="width:'+item.procent+'%; background:'+item.color+';">' +
 					'<div class="progress-value">'+item.procent+'%</div>' +
