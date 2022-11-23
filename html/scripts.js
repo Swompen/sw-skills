@@ -14,7 +14,7 @@ function closeAll() {
 	$(".body").css("display", "none");
 }
 $(".close").click(function(){
-    $.post('https://bg-skills/quit', JSON.stringify({}));
+    $.post('https://sw-skills/quit', JSON.stringify({}));
 });
 
 window.addEventListener('message', function (event) {
@@ -47,7 +47,7 @@ console.log(JSON.stringify(item))
 $(document).on("keydown", function() {
     switch(event.keyCode) {
         case 27:
-			$.post('https://bg-skills/quit', JSON.stringify({}));
+			$.post('https://sw-skills/quit', JSON.stringify({}));
         break;
     }
 });
